@@ -1,0 +1,220 @@
+=================================== Root Class: Led  ==========================================
+Led Three arg constructor!
+Led Three arg constructor!
+Led Three arg constructor!
+Led Three arg constructor!
+greenled0 obj: Name:Unnamed Led, pin:16, state:LOW
+greenled1 obj: Name:Unnamed Led, pin:27, state:LOW
+greenled2 obj: Name:greenled2, pin:27, state:LOW
+greenled3 obj: Name:greenled3, pin:27, state:HIGH
+Led Three arg constructor!
+Led Three arg constructor!
+Name:greenled, pin:16, state:HIGH
+Name:redled, pin:17, state:HIGH
+Name:greenled, pin:16, state:LOW
+Name:redled, pin:17, state:LOW
+===========dummyled is the shallow copy of greenled==================
+Name:greenled, pin:16, state:LOW
+Loop
+Led Three arg constructor!
+Name:yellowled, pin:18, state:LOW
+Led Destructor!
+===========toggle Green and Red LED==================
+Name:greenled, pin:16, state:HIGH
+Name:redled, pin:17, state:HIGH
+Name:greenled, pin:16, state:LOW
+Name:redled, pin:17, state:LOW
+Name:greenled, pin:16, state:HIGH
+Name:redled, pin:17, state:HIGH
+Name:greenled, pin:16, state:LOW
+Name:redled, pin:17, state:LOW
+Name:greenled, pin:16, state:HIGH
+Name:redled, pin:17, state:HIGH
+Name:greenled, pin:16, state:LOW
+Name:redled, pin:17, state:LOW
+Name:greenled, pin:16, state:HIGH
+Name:redled, pin:17, state:HIGH
+Name:greenled, pin:16, state:LOW
+Name:redled, pin:17, state:LOW
+Name:greenled, pin:16, state:HIGH
+Name:redled, pin:17, state:HIGH
+*** End of Test ***
+
+
+
+=================================== Derived Class: Blink  ==========================================
+Led Three arg constructor!
+Blink five arg constructor!
+Led Three arg constructor!
+Blink five arg constructor!
+Led Three arg constructor!
+Blink five arg constructor!
+Led Three arg constructor!
+Blink five arg constructor!
+greenled obj: Name:Unnamed Led, pin:16, state:LOW
+greenled1 obj: Name:Unnamed Led, pin:27, state:LOW
+greenled2 obj: Name:greenled2, pin:27, state:LOW
+greenled3 obj: Name:greenled3, pin:27, state:HIGH
+Led Three arg constructor!
+Blink five arg constructor!
+Name:Unnamed Led, pin:16, state:LOW
+Name:redled, pin:17, state:HIGH
+Name:Unnamed Led, pin:16, state:HIGH
+Name:redled, pin:17, state:HIGH
+===========Blink Green LED one, twice, three times ==================
+*** End of Test ***
+
+
+
+=================================== Derived Class: Morse  ==========================================
+Led Three arg constructor!
+Blink five arg constructor!
+Morse five arg constructor!
+Name:redled, pin:17, state:HIGH
+=========================================
+process_string:This is a test n=14
+Found space
+index=4
+=========================================
+send_word:This is a test n=4
+=========================================
+send_letter:t
+code=1
+=========================================
+process_letter:1 n=1
+Index=0
+One long dot
+=========================================
+=========================================
+=========================================
+send_letter:h
+code=0000
+=========================================
+process_letter:0000 n=4
+Index=0
+One short dot
+Index=1
+One short dot
+Index=2
+One short dot
+Index=3
+One short dot
+=========================================
+=========================================
+=========================================
+send_letter:i
+code=00
+=========================================
+process_letter:00 n=2
+Index=0
+One short dot
+Index=1
+One short dot
+=========================================
+=========================================
+=========================================
+send_letter:s
+code=000
+=========================================
+process_letter:000 n=3
+Index=0
+One short dot
+Index=1
+One short dot
+Index=2
+One short dot
+=========================================
+=========================================
+=========================================
+Found space
+index=7
+=========================================
+send_word:is a test n=2
+=========================================
+send_letter:i
+code=00
+=========================================
+process_letter:00 n=2
+Index=0
+One short dot
+Index=1
+One short dot
+=========================================
+=========================================
+=========================================
+send_letter:s
+code=000
+=========================================
+process_letter:000 n=3
+Index=0
+One short dot
+Index=1
+One short dot
+Index=2
+One short dot
+=========================================
+=========================================
+=========================================
+Found space
+index=9
+=========================================
+send_word:a test n=1
+=========================================
+send_letter:a
+code=01
+=========================================
+process_letter:01 n=2
+Index=0
+One short dot
+Index=1
+One long dot
+=========================================
+=========================================
+=========================================
+Found space
+index=14
+=========================================
+send_word:test n=4
+=========================================
+send_letter:t
+code=1
+=========================================
+process_letter:1 n=1
+Index=0
+One long dot
+=========================================
+=========================================
+=========================================
+send_letter:e
+code=0
+=========================================
+process_letter:0 n=1
+Index=0
+One short dot
+=========================================
+=========================================
+=========================================
+send_letter:s
+code=000
+=========================================
+process_letter:000 n=3
+Index=0
+One short dot
+Index=1
+One short dot
+Index=2
+One short dot
+=========================================
+=========================================
+=========================================
+send_letter:t
+code=1
+=========================================
+process_letter:1 n=1
+Index=0
+One long dot
+=========================================
+=========================================
+=========================================
+=========================================
+*** End of Test ***
